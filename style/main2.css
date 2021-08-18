@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+ ul li {
+display:inline-block;
+ list-style:none;
+ float:center;
+margin-right: 50px;
+ }
+
+body { background: url(images/back.jpg); background-attachment:fixed;background-size: cover; margin:85 }
+
+
+
+#tablica {
+border-color:t;
+width:100%;
+max-height:1000px;
+max-width:1500px;
+margin:auto;
+background-color: black ;
+background: rgba(255, 255, 255, 0.9)
+}
+
+#sh {border: 3px solid red;
+ padding: 1px;}
+#menu1 {border: 3px solid red;
+ padding: 1px;
+margin: 50px}
+
+
+
+
+
+ 
+td {padding:15px; vertical-align:top;}
+
+ul li a:hover {
+color:red;
+transform: scale(1.1);
+}
+ul li a{
+color:black;
+height:30px;
+padding:25px 10px;
+text-transform:uppercase;
+text-decoration:none;}
